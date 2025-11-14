@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Raheem Ansary - DevOps & Full-Stack Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    /* Reset */
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #f7f9fc;
+      color: #222;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    header h1 {
+      margin: 0;
+      font-weight: 700;
+      font-size: 2.5rem;
+      color: #1e40af;
+    }
+    header p {
+      margin: 0.3rem 0 0;
+      color: #555;
+      font-size: 1.1rem;
+    }
+    .contact-links {
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+    .contact-links a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      color: #2563eb;
+      font-weight: 500;
+    }
+    .section {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
+      padding: 1.8rem 2rem;
+      margin-bottom: 2rem;
+    }
+    .section h2 {
+      margin-top: 0;
+      font-size: 1.6rem;
+      border-bottom: 2px solid #2563eb;
+      padding-bottom: 0.3rem;
+      margin-bottom: 1rem;
+      color: #1e40af;
+    }
+    .section p {
+      margin-top: 0;
+    }
+    ul.skills-list {
+      list-style: none;
+      padding-left: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(140px,1fr));
+      gap: 0.7rem 1rem;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    ul.skills-list li {
+      background: #e0e7ff;
+      color: #3730a3;
+      padding: 0.4rem 0.8rem;
+      border-radius: 4px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      text-align: center;
+    }
+    .experience, .projects {
+      display: flex;
+      flex-direction: column;
+      gap: 1.4rem;
+    }
+    .item {
+      border-left: 3px solid #2563eb;
+      padding-left: 1rem;
+    }
+    .item h3 {
+      margin: 0 0 0.2rem 0;
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: #1e40af;
+    }
+    .item span {
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: #6b7280;
+    }
+    .item p {
+      margin: 0.4rem 0 0 0;
+      white-space: pre-line;
+    }
+    .projects a {
+      font-weight: 600;
+      color: #2563eb;
+      font-size: 1rem;
+    }
+    @media (max-width: 480px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      .section {
+        padding: 1.2rem 1rem;
+      }
+      ul.skills-list {
+        grid-template-columns: repeat(auto-fit,minmax(120px,1fr));
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Raheem Ansary</h1>
+      <p>DevOps & Full-Stack Engineer</p>
+      <div class="contact-links">
+        <a href="mailto:raheem.annsary@gmail.com" aria-label="Email">
+          📧 raheem.annsary@gmail.com
+        </a>
+        <a href="https://github.com/Raheem-Ansary" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          🐙 github.com/Raheem-Ansary
+        </a>
+        <span>📍 Afghanistan</span>
+      </div>
+    </header>
+
+    <section class="section professional-summary">
+      <h2>Professional Summary</h2>
+      <p>
+        DevOps & Full-Stack Engineer with 7 years of software development experience, specializing in automation, containerization, reproducible environments, and CI/CD pipelines. Skilled at developing and deploying scalable applications using Docker, Kubernetes, Nix flakes, and GitHub Actions.
+      </p>
+    </section>
+
+    <section class="section core-skills">
+      <h2>Core Skills</h2>
+      <ul class="skills-list">
+        <li>Docker</li>
+        <li>docker-compose</li>
+        <li>Kubernetes</li>
+        <li>GitHub Actions CI/CD</li>
+        <li>Helm</li>
+        <li>Terraform/OpenTofu</li>
+        <li>Nix flakes & overlays</li>
+        <li>devShells</li>
+        <li>Node.js (Express, Sequelize)</li>
+        <li>python</li>
+        <li>c++</li>
+        <li>Bash script</li>
+        <li>Rust basics</li>
+        <li>Nextjs (Vite)</li>
+        <li>PostgreSQL</li>
+        <li>Migrations & Seeders (Sequelize)</li>
+        <li>Healthchecks & probes</li>
+        <li>Logging & Observability</li>
+        <li>Docker Hub & doctl</li>
+        <li>Secure secrets in CI</li>
+        <li>Git & monorepo patterns</li>
+        <li>Multi-stage Docker builds</li>
+        <li>CI troubleshooting</li>
+      </ul>
+    </section>
+
+    <section class="section professional-experience">
+      <h2>Professional Experience</h2>
+      <div class="experience">
+        <div class="item">
+          <h3>Freelance / Open Source Contributor</h3>
+          <span>2018 — Present</span>
+          <p>
+            Delivered multiple projects focusing on automation, reproducible builds, containerization, and infrastructure-as-code. Developed cross-platform development environments using Nix flakes, implemented CI/CD pipelines with GitHub Actions, and created Kubernetes manifests for production readiness.
+          </p>
+        </div>
+        <div class="item">
+          <h3>Full-Stack Developer (Contract)</h3>
+          <span>Remote work for Niki Travel</span>
+          <p>
+            Implemented backend APIs, Dockerized services, created CI/CD workflows, and collaborated on development and deployment pipelines.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section selected-projects">
+      <h2>Selected Projects</h2>
+      <div class="projects">
+        <div class="item">
+          <a href="https://github.com/Raheem-Ansary/real-world-devops-with-nix" target="_blank" rel="noopener noreferrer">
+            Real-World DevOps with Nix
+          </a>
+          <p>
+            Hardened a Go microservice with Nix flakes, added Kubernetes manifests, and GitHub Actions CI for multi-platform builds and container deployment.
+          </p>
+        </div>
+        <div class="item">
+          <a href="https://github.com/Raheem-Ansary/todomvc-nix" target="_blank" rel="noopener noreferrer">
+            todomvc-nix
+          </a>
+          <p>
+            Maintained Nix overlays and CI for reproducible Rust builds; resolved dependency issues and ensured multi-architecture support.
+          </p>
+        </div>
+        <div class="item">
+          <a href="https://github.com/Raheem-Ansary/conduit-realworld-example-app" target="_blank" rel="noopener noreferrer">
+            conduit-realworld-example-app
+          </a>
+          <p>
+            Containerized full-stack app with Docker multi-stage builds, automated migrations and seeding, and implemented GitHub Actions workflows for testing and deployment.
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
+
